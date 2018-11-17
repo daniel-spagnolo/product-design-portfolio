@@ -30,7 +30,7 @@
 
 		<!-- Bootstrap core CSS -->
 	    <link href="css/bootstrap-grid.css" rel="stylesheet"> 
-	    <link rel="stylesheet" type="text/css" href="css/styles-2017-mini.css">
+	    <link rel="stylesheet" type="text/css" href="css/styles-2017.css">
 
 	    <!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-52715158-2"></script>
@@ -122,9 +122,9 @@
 
 
 			        	<!-- Reading time -->
-			            	<!-- <div class="center-text">
-			            		<p class="no-padding-btm">Read time: ???????</p>
-			            	</div> -->
+			            	<div class="center-text">
+			            		<p class="no-padding-btm">Read time: 12 minutes</p>
+			            	</div>
 		            
 		            </div> <!-- end row -->   
 
@@ -200,19 +200,9 @@
 					</div>
 
 					<div>
-						<p>Clients integrate with Onfido's web-based identity verification SDK to use within their user onboarding experience. This allows them to be KYC (know your customer) compliant and reduce fraud on their services. Our SDK allows clients to verify users instantly by requesting a picture of an ID document (verifying legal identity) and then asking for a selfie (to compare with the ID document supplied).</p>
+						<p>What do you do if you’re applying to a service on desktop and you’re being asked to verify your identity — and you don’t have ID photos saved anywhere or a webcam to use? Most people would reach for their mobile, take a photo of whatever is needed, and then figure out a way to transfer the photos back to their desktop to upload.</p>
 
-						<p>From client feedback, and our own SDK user-testing sessions, we saw a big friction point for <span class="italic">desktop</span> users when asked to upload an ID document and a selfie.</p>
-
-						<p class="no-padding-btm">The three main painpoints observed were:</p>
-
-						<ol>
-							<li>Users having to remember where they'd stored their ID document files (either on their computer or on a cloud service)</li>
-							<li>Users having to take photos with their mobile phone and then transfer them back to their desktop to upload</li>
-							<li>Users able to use a webcam, but their webcam producing poor quality images</li>
-						</ol>
-
-						<p>This was ultimately leading to high drop-off numbers, fewer onboarded users, and subsequently lower revenue for our clients.</p>
+						<p>We knew from client feedback and previous usability sessions that this was a cumbersome experience and was contributing to a 30% desktop drop-off. We wanted to create a much better experience for users to take ID photos on their mobile and remove the friction of transferring those photos back to their desktop to continue verification. </p>
 					</div>
 
 				</div> <!-- end row -->
@@ -240,15 +230,14 @@
 					</div>
 
 					<div>
-						<p>As most desktop users usually reached for their mobile phone to take photos, we decided to "piggyback" on this pre-existing user behaviour. Introducing the ability for a user to easily continue their verification process on their mobile, and automatically upload these photos back to the desktop, greatly reduced time-wasting and various drop-off opportunities that transferring files back to a desktop usually incurred.</p>
+						<p>As most desktop users usually reached for their mobile phone to take photos, we decided to "piggyback" on this pre-existing user behaviour. Introducing the ability for users to continue their verification journey from the desktop to their mobile to take photos greatly reduced drop-off opportunities that usually ocurred.</p>
 
-						<p class="no-padding-btm">Steps the user now took to successfully complete the verification process:</p>
+						<p class="no-padding-btm">We achieved this by:</p>
 
 						<ol>
-							<li>Texting a url link to their mobile phone from our web SDK</li>
-							<li>Guiding them through taking an ID document and selfie photo on their mobile phone</li>
-							<li>Automatically synching photos back to the desktop</li>
-							<li>Guiding the user upon completion back to the desktop to continue the clients onboarding journey</li>
+							<li>Providing SMS support to allow users to switch to their mobile (users are familiar and comfortable with this behaviour)</li>
+							<li>Providing clear instructions and user feedback to let people know how it worked and what was happening at all times</li>
+							<li>Understanding how people move between devices, what can happen in this transition, and how we can support them</li>
 						</ol>
 					</div>
 
@@ -275,7 +264,7 @@
 
 				<div class="row col-xs-10 col-sm-10 col-md-7 col-lg-6 center">		
 						<div>
-				    		<blockquote class="center-text">“Azimo and RBS were totally blown away by this. They got the benefits straight away.”</blockquote>
+				    		<blockquote>“Azimo and RBS were totally blown away by this. They got the benefits straight away.”</blockquote>
 				    		<figcaption>Feedback from Sales after demoing to new clients.</figcaption>
 				    	</div> 
 		    	</div>
@@ -290,32 +279,1215 @@
 
 
 
-	<!-- Full casestudy coming soon module  _______________________________________________________________________________________________________________________-->
+	<!-- Section break module ___________________________________________________________________________________________________________________________ -->
 
-		<section class="quote-module padding-btm">
+		<section class="section-break-module">
+
+				<div class="container">
+
+		    		<div class="row col-md-12 center-text">
+					
+			        	<!-- Sub title -->
+			            	<div>
+			            		<p class="no-padding">A little context</p>
+			            	</div>
+
+
+			        	<!-- Title -->
+			            	<div>
+			            		<h1>Background</h1>
+			              	</div>
+
+		            </div> <!-- end row -->
+
+	            </div> <!-- end container -->
+
+            </section> <!-- end Section break module -->
+            
+
+
+	<!-- Background (Generic module) ___________________________________________________________________________________________________________________________ -->
+
+		<section class="generic-module">
+
+			<div class="container no-padding-btm">
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+					<div>
+						<p>Clients (such as Revolut and Blockchain.com ) integrate Onfido’s SDK into their own applications so people can quickly verify their identity, create trust in their platforms, and meet KYC (Know Your Customer) government regulations.</p>
+						
+						<p>When I joined the team the Web SDK was in a very basic MVP state. Team focus had been shifted to the iOS and Android versions of the SDK and so the web version had become neglected — clients weren’t excited about it and our sales team failed to be excited to sell it. This cross-device feature was to be the first “value-add” that we hoped would get clients and sales excited about the Web SDK again.</p>
+					</div>
+
+				</div> <!-- end row -->
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+					<div>
+						<h2>SDK sidenote</h2>
+							<div class="horizontal-line-small"></div>
+					</div>					
+
+					<div>
+						<p>I know most people have no idea, or only a vague idea, of what an SDK is (I definitely fell into the “vague idea” side) — so let’s clear it up. An SDK (software development kit) is a “plug-n-play” kit that clients can add into their existing products meaning they don’t have to spend the time and resources building it themselves. Our identity verification SDK allows clients to focus on what they do best and leaves the customer verification part to us.</p>
+					</div>
+
+				</div> <!-- end row -->
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center">
+
+					<div>
+						<h2>How the Web SDK worked</h2>
+							<div class="horizontal-line-small"></div>
+					</div>					
+
+					<div>
+						<p>Identity verification is broken into a 2-step flow for user. Users would take a picture of an ID document followed by taking a selfie which would be compared to the ID for verification. Desktop users were dropping off at the points in the flow where they needed to upload pictures of their documents and face.</p>
+					</div>
+
+				</div> <!-- end row -->	
+
+				<div class="row col-md-8 center">	
+
+					<figure>
+	              		<img srcset=""
+	              		src="" class="img-responsive center" alt="[image] Workflow of desktop user drop-off points.">
+	              		<figcaption>
+	              			?????
+	              		</figcaption>
+	            	</figure>
+
+            	</div> <!-- end image row -->							
+
+			</div> <!-- end conatiner -->
+
+		</section> <!-- end Choice of two -->  
+
+
+
+	<!-- Section break module ___________________________________________________________________________________________________________________________ -->
+
+		<section class="section-break-module">
+
+				<div class="container">
+
+		    		<div class="row col-md-12 center-text">
+
+					
+		        		<!-- Sub title -->
+		            	<div>
+		            		<p class="no-padding">Working assumptions out</p>
+		            	</div>
+
+
+			        	<!-- Title -->
+			            	<div>
+			            		<h1>Research</h1>
+			              	</div>
+
+		            </div> <!-- end row -->
+
+	            </div> <!-- end container -->
+
+            </section> <!-- end Section break module -->
+
+
+
+	<!-- Assumptive research  ___________________________________________________________________________________________________________________________ -->
+
+		<section class="generic-module">
+
+			<div class="container">
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+					<div>
+						<h2>Meeting assumptions head on</h2>
+							<div class="horizontal-line-small"></div>
+					</div>
+
+					<div>
+						<p>I realised at the beginning that we were starting with some large assumptions:</p>
+						<ol>
+							<li>A large proportion of desktop users take ID photos with their mobile and transfer them back to their desktop to upload</li>
+							<li>Most users find it more natural and convenient to take photos using their mobile</li>
+							<li>The majority of desktop users don’t have an ID document image saved anywhere for easy access</li>
+						</ol>
+					</div>
+
+					<div>
+						<p>The early part of my research phase was validating these assumptions using a variation of methods such as looking through usage data, desk research, and user testing our current SDK product. Top level insights from this research showed that:</p>
+						<ol>
+							<li>~50% of our Web SDK users start their journey on desktop</li>
+							<li>~60% of desktop users have access to a webcam</li>
+							<li>Most desktop webcams are not useful for capturing decent-quality document images</li>
+							<li>Safari didn’t support webcam use</li>
+							<li>It’s harder for users to keep an ID document steady in front of a webcam, than it is to take a photo of an ID document with a mobile</li>
+						</ol>
+					</div>
+
+				</div> <!-- end row -->
+
+			<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center">
+
+					<div>
+						<h2>The trouble with desktop</h2>
+							<div class="horizontal-line-small"></div>
+					</div>					
+
+					<div>
+						<p>Unless a user has an ID document saved somewhere then we didn’t help users in any way who needed to take a picture of their ID document and upload it to the desktop.</p>
+
+						<p class="no-padding-btm">We knew that ~60% of desktop users have access to a webcam, but we had decided not to allow this option for ID documents. Why you ask? We had four good reasons:</p>
+
+						<ol>
+							<li>Most webcams produce poor quality low-resolution images</li>
+							<li>Our machine learning needed good resolution images to be able to compare facial images and flag fraudulent documents</li>
+							<li>Usability sessions continually showed that taking photos with a webcam was cumbersome and frustrating</li>
+							<li>Apple’s Safari browser did not actually support webcam use (only recently did Safari allow webcam support)</li>
+						</ol>
+
+						<p>This meant that for the majority of desktop users taking photos on their mobile was the only option available, so allowing users to easily switch from desktop to mobile and back again was imperative to avoid drop offs.</p>
+					</div>
+
+				</div> <!-- end row -->	
+
+			<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center">
+
+					<div>
+						<h2>Validating the client need</h2>
+							<div class="horizontal-line-small"></div>
+					</div>					
+
+					<div>
+						<p>In conjunction with early research, we also validated the feature with current and potential clients to be confident that this was of value to them. Working with my Product Manager we sent a survey to current and potential clients to uncover their expectations, we then followed this up with interviews to dig deeper into the problem space.</p>
+
+						<h5 class="inline-block">Client insights</h5>
+							<ul>
+								<li>All were experiencing drop off numbers on desktop and recognised this was mostly due to users having to switch between desktop and mobile to take photos</li>
+								<li>All had ideas about how to solve this problem, but none had moved forward due to the time and resources needed</li>
+								<li>Coinbase was mentioned as having solved this problem already</li>
+							</ul>
+					</div>
+
+				</div> <!-- end row -->								
+
+			</div> <!-- end container -->
+
+		</section> <!-- end Assumptive research -->  
+
+
+
+	<!-- Section break module ___________________________________________________________________________________________________________________________ -->
+
+		<section class="section-break-module">
+
+				<div class="container">
+
+		    		<div class="row col-md-12 center center-text">
+					
+		        		<!-- Sub title -->
+		            	<div>
+		            		<p class="no-padding">Storyboarding</p>
+		            	</div>
+
+
+		        		<!-- Title -->
+		            	<div>
+		            		<h1>The concept</h1>
+		              	</div>
+
+		            </div> <!-- end row -->	
+
+	            </div> <!-- end container -->
+
+            </section> <!-- end Section break module -->             
+
+
+
+	<!-- The concept ___________________________________________________________________________________________________________________________ -->
+
+		<section class="generic-module">
+
+			<div class="container">
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-top">
+
+					<div>
+						<p>Not every project needs a storyboard, but I felt it was needed here to help the SDK team, internal stakeholders, and clients visualise the desktop users problems and how our concept could help them. This shared artifact lead to excited discussions about what we wanted to achieve as a business, how users could interact with it, and how this benefited clients. </p>
+					</div>
+
+				</div> <!-- end row -->
+
+				<div class="row col-md-12 center">
+
+					<figure>
+						<img srcset="img/cross-device/storyboard@2x.gif 2x" 
+						src="img/cross-device/storyboard@1x.gif" class="img-responsive center" alt="Storyboard story: Andrew sits at his desktop and has almost completed his project on Kickstarter. He now needs to verify himself and he thinks it's going to take forever, until he is amazed that he can just put in his mobile number to continue the flow on his mobile. He then proceeds to continue the verification flow using his mobile to take a picture of his ID and a selfie. Once he is finished he's directed back to his desktop where his Kickstarter project can be finished.">
+						<figcaption>Storyboarding helps clear up understanding of the concept</figcaption>
+					</figure>
+
+            	</div> <!-- end image row --> 					
+
+			</div> <!-- end container -->
+
+		</section> <!-- end The concept -->  
+
+
+
+	<!-- Section break module ___________________________________________________________________________________________________________________________ -->
+
+		<section class="section-break-module">
+
+				<div class="container">
+
+		    		<div class="row col-md-12 center center-text">
+					
+		        		<!-- Sub title -->
+		            	<div>
+		            		<p class="no-padding">????</p>
+		            	</div>
+
+
+		        		<!-- Title -->
+		            	<div>
+		            		<h1>A big question</h1>
+		              	</div>
+
+		            </div> <!-- end row -->	
+
+	            </div> <!-- end container -->
+
+            </section> <!-- end Section break module -->		 
+
+
+
+	<!-- One big question ___________________________________________________________________________________________________________________________ -->
+
+		<section class="generic-module">
+
+			<div class="container">
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-top">
+
+					<div>
+						<h2>Competitor research</h2>
+							<div class="horizontal-line-small"></div>
+					</div>	
+
+					<div>
+						<p>Only one of our competitors (Mitek) had tried to tackle this problem so far, but we heard that their solution required time to implement on the client-side — we knew if our solution worked “out-of-the-box” this could easily drive more clients to use Onfido instead.</p>
+
+						<p>We knew of only two in-direct competitors who had tried to solve this problem — Coinbase and Airbnb.</p>
+
+					</div>
+
+				</div> <!-- end row -->
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-top padding-btm">
+
+					<div>
+						<h3 class="inline-block">Coinbase</h3>
+						<p>The Coinbase solution was being mentioned quite a bit in client conversations and we were also hearing from people within Onfido to “just do it like Coinbase” as the quick solution.</p>
+					</div>
+
+					<div class="row col-md-8 center">
+
+						<figure>
+							<img srcset="img/??/??@2x.png 2x" 
+							src="img/??/??@1x.png" class="img-responsive center" alt="Coinbase flow">
+							<figcaption>????</figcaption>
+						</figure>
+
+				</div>
+
+            	</div> <!-- end row --> 
+
+            	<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-top padding-btm">
+
+            		<ul class="padding-btm">
+            			<li>+ Simple flow </li>
+            			<li>+ Sent URL to users mobile using their number supplied at signup</li>
+            			<li>- No image quality validation on photos eg. blurriness, glare, etc</li>
+            		</ul>
+
+            		<p>Goal-wise Coinbase’s flow was the same as ours — we wanted desktop users to switch to their mobile to take photos and then continue their journey back on the desktop.</p>
+            		
+            	</div>	<!-- End row -->
+
+
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center">
+
+					<div>
+						<h3 class="inline-block">Airbnb</h3>
+						<p>It was fortuitous that at the same time Airbnb released a similar feature and after reviewing it I realised that this was the baseline standard of user expectation.</p>
+					</div>
+
+					<div class="row col-md-8 center">
+
+						<figure>
+							<img srcset="img/??/??@2x.png 2x" 
+							src="img/??/??@1x.png" class="img-responsive center" alt="Airbnb flow">
+							<figcaption>????</figcaption>
+						</figure>
+
+				</div>
+
+            	</div> <!-- end row --> 
+
+            	<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center">
+
+            		<ul class="padding-btm">
+            			<li>+ Clear explanations of what was expected and why</li>
+            			<li>+ Good use of illustrations to help understanding</li>
+            			<li>- Pushes user to install / use app</li>
+            		</ul>
+
+            		<p>Airbnb’s goal was to push people to install the Airbnb mobile app or to switch to using the app if already installed.</p>
+            		
+            	</div>	<!-- End row -->  
+
+
+
+            	<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-top padding-btm">
+            		
+            		<h6>The question</h6>
+            		<h2>What can push my design a step further to help people?</h2>
+
+            	</div> <!-- end row -->
+
+            	<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-top padding-btm">
+            		
+            		<p>Our design could go one step further than these solutions. I could delve deeper into how people interact between devices within their environmental space and improve the experience that people encounter switching between devices.</p>
+
+
+            	</div> <!-- end row -->            	
+
+
+
+
+			</div> <!-- end container -->
+
+		</section> <!-- end One big question --> 
+
+
+
+	<!-- Section break module ___________________________________________________________________________________________________________________________ -->
+
+		<section class="section-break-module">
+
+				<div class="container">
+
+		    		<div class="row col-md-12 center center-text">
+					
+		        		<!-- Sub title -->
+		            	<div>
+		            		<p class="no-padding">Answering the question</p>
+		            	</div>
+
+
+		        		<!-- Title -->
+		            	<div>
+		            		<h1>Exploration</h1>
+		              	</div>
+
+		            </div> <!-- end row -->	
+
+	            </div> <!-- end container -->
+
+            </section> <!-- end Section break module -->
+
+
+
+<!-- Exploration of the question (generic module) ________________________________________________________________________________________________________________ -->
+
+		<section class="generic-module">
+
+			<div class="container no-padding-btm">
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center">
+
+					<div>
+						<h2 class="no-padding-top">High level exploration</h2>
+						<div class="horizontal-line-small"></div>
+					</div>
+
+					<div>
+						<p>My major insight from analysing the Coinbase and Airbnb flows led to me begin a high level exploration of how users move in spatial space between a desktop and mobile and what could  impact them. User questions I wanted to started exploring were:</p>
+
+						<ul>
+							<li>How could their surrounding environment affect them?</li>
+							<li>How could their attention be affected by the surrounds?</li>
+							<li>How could their emotional state affect them?</li>
+						</ul>
+					</div>
+
+            	</div> <!-- end row --> 
+
+
+
+				<div class="row col-md-12 center">
+
+					<figure>
+						<img srcset="img/??/??@2x.png 2x" 
+							src="img/??/??@1x.png" class="img-responsive center" alt="image of concept events/actions">
+						<figcaption class="padding-btm">
+							????
+						</figcaption>
+					</figure>
+
+            	</div> <!-- end row --> 
+
+        	</div> <!-- End container --> 
+
+
+
+	<!-- Quote module ___________________________________________________________________________________________________________________________ -->
+
+		<section class="quote-module">
 
 			<div class="container">
 
 				<div class="row">
-	            	<div class="horizontal-line-small-pink center"></div>
+	            	<div class="horizontal-line-small center"></div>
             	</div>
-
-
 
 				<div class="row col-xs-10 col-sm-10 col-md-7 col-lg-6 center">		
 						<div>
-				    		<blockquote class="center-text">Full casestudy coming soon</blockquote>
-				    		<h5 class="center-text">&#x1F60A;</h5>
+				    		<blockquote>“The future of UX is the user who begins a task on one device, continues across many more devices and completes their task with little recognition of, or interest in the complexity involved. We need think at a higher level than screens or sites or devices.”</blockquote>
+				    		<figcaption>Eva Willis | UX Consultant</figcaption>
 				    	</div> 
 		    	</div>
 
-			    	<div class="row">
-		            	<div class="horizontal-line-small-pink center"></div>
-            		</div>
+		    	<div class="row">
+	            	<div class="horizontal-line-small center"></div>
+            	</div>
+
+			</div> <!-- end container -->
+
+		</section> <!-- end Quote module --> 
+
+
+	<!-- User stress cases ___________________________________________________________________________________________________________________________ -->
+
+		<section class="generic-module"> 
+
+			<div class="container no-padding-btm">
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center">
+
+					<div>
+						<h2 class="no-padding-top">User stress-cases</h2>
+						<div class="horizontal-line-small"></div>
+					</div>
+
+					<div>
+						<p>Brainstorming with the team we came up with some user stress-cases about what could happen to users switching between desktop and mobile.</p>
+					</div>
+
+				</div> <!-- End row -->
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+					<h4>Distracted by external factors</h4>
+							<ul>
+								<li>Doorbell ringing</li>
+								<li>Phone call</li>
+								<li>Kids fighting</li>
+								<li>Busy work environments</li>
+							</ul>
+
+        		</div> <!-- end row --> 
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+					<h4>Emotional factors</h4>
+							<ul>
+								<li>Stressing about doing the verification correctly</li>
+								<li>Having a bad day at work</li>
+							</ul>
+
+				</div> <!-- end row --> 
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+					<h4>Switching tasks</h4>
+							<ul class="padding-btm">
+								<li>Searching for their passport</li>
+								<li>Searching for their mobile</li>
+							</ul>
+
+							<p>I incorporated these stress-cases into a user journey map noting where they occured and started exploring simple and effective ways to help these users within the framework and constraints of an MVP.</p>
+
+				</div> <!-- end row --> 				          	
+
+
+
+				<div class="row col-md-12 center">
+
+					<figure>
+						<img srcset="img/??/??@2x.png 2x" 
+							src="img/??/??@1x.png" class="img-responsive center" alt="user journey map">
+						<figcaption class="padding-btm">
+							????
+						</figcaption>
+					</figure>
+
+					<figure>
+						<img srcset="img/??/??@2x.png 2x" 
+							src="img/??/??@1x.png" class="img-responsive center" alt="sketched flow">
+						<figcaption class="padding-btm">
+							Once I had an approach that I was happy with I got together with the team to share my thinking and sketched screen flows, and also get their thoughts.
+						</figcaption>
+					</figure>
+
+            	</div> <!-- end row --> 
+
+        	</div> <!-- End container --> 
+
+
+
+	<!-- Testing the concept ___________________________________________________________________________________________________________________________ -->
+
+
+		<section class="generic-module">
+
+			<div class="container no-padding-btm">
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center">
+
+					<div>
+						<h2 class="no-padding-top">Testing the concept</h2>
+						<div class="horizontal-line-small"></div>
+					</div>
+
+					<div>
+						<p>Once the team was aligned with my concept it was time to see how users would react to it with some low-fidelity prototype testing.</p>
+						<p class="no-padding-btm">There were two main question I wanted to answer with these sessions:</p>
+
+						<ol>
+							<li>Should the cross-device option be separated into a new screen or merged with the current upload screen?</li>
+							<li>Would users understand what was going to happen when they saw the cross-device option?</li>
+							<li>How did they feel about the three different methods (copy and paste a link, emailing link, SMS message) of switching to a mobile?</li>
+						</ol>
+					</div>
+
+            	</div> <!-- end row --> 
+
+
+
+				<div class="row col-md-12 center">
+
+					<figure>
+						<img srcset="img/??/??@2x.png 2x" 
+							src="img/??/??@1x.png" class="img-responsive center" alt="wireframed prototype">
+						<figcaption class="padding-btm">
+							I tested two types of ways to get to the cross-device feature — on the current upload screen and on a device choice (desktop or mobile selections) on another screen
+						</figcaption>
+					</figure>
+
+            	</div> <!-- end row --> 
+
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center">
+					
+					<h3>User insights</h3>
+						<ul>
+							<li>A clearer explanation of the cross-device feature was needed</li>
+							<li>Most preferred the cross-device option to be part of the current upload screen</li>
+							<li>Users wanted feedback on the desktop that their mobile photos had been synced</li>
+							<li>Most preferred the ease of using SMS and weren't concerned about providing their mobile number (email was a close second)</li>
+						</ul>
+
+				</div> <!-- End row -->
+
+
+        	</div> <!-- End container --> 
+
+
+
+	<!-- Quote module ___________________________________________________________________________________________________________________________ -->
+
+		<section class="quote-module">
+
+			<div class="container no-padding-btm">
+
+				<div class="row">
+	            	<div class="horizontal-line-small center"></div>
+            	</div>
+
+				<div class="row col-xs-10 col-sm-10 col-md-7 col-lg-6 center">		
+						<div>
+				    		<blockquote>“You’re making me do half the work!”</blockquote>
+				    		<figcaption>A users reaction to the non-sms options</figcaption>
+				    	</div> 
+		    	</div>
+
+		    	<div class="row">
+	            	<div class="horizontal-line-small center"></div>
+            	</div>
+
+			</div> <!-- end container -->
+
+		</section> <!-- end Quote module --> 
+
+
+
+		<section class="generic-module">
+
+			<div class="container no-padding-btm">
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center">
+					
+					<h3>Client insights</h3>
+						<ul>
+							<li>How long would the URL link last for?</li>
+							<li>Could email be used like Slack’s “magic email link”?</li>
+							<li>Could the they customise the SMS message that users were sent?</li>
+							<li>Could a safe and secure link be established between the mobile and the desktop?</li>
+						</ul>
+
+				</div> <!-- End row -->
+
+        	</div> <!-- End container -->	
+
+
+
+	<!-- Quote module ___________________________________________________________________________________________________________________________ -->
+
+		<section class="quote-module">
+
+			<div class="container">
+
+				<div class="row">
+	            	<div class="horizontal-line-small center"></div>
+            	</div>
+
+				<div class="row col-xs-10 col-sm-10 col-md-7 col-lg-6 center">		
+						<div>
+				    		<blockquote>“This could be a real differentiator. It shows you are really thinking about the problem, and tackling it.”</blockquote>
+				    		<figcaption>Product manager @ World Remit</figcaption>
+				    	</div> 
+		    	</div>
+
+		    	<div class="row">
+	            	<div class="horizontal-line-small center"></div>
+            	</div>
+
+			</div> <!-- end container -->
+
+		</section> <!-- end Quote module --> 
+
+
+
+	<!-- Section break module ___________________________________________________________________________________________________________________________ -->
+
+		<section class="section-break-module">
+
+				<div class="container">
+
+		    		<div class="row col-md-12 center center-text">
+					
+		        		<!-- Sub title -->
+		            	<div>
+		            		<p class="no-padding">????</p>
+		            	</div>
+
+
+		        		<!-- Title -->
+		            	<div>
+		            		<h1>The challenges</h1>
+		              	</div>
+
+		            </div> <!-- end row -->	
+
+	            </div> <!-- end container -->
+
+            </section> <!-- end Section break module -->	
+
+
+	<!-- Challenges  ___________________________________________________________________________________________________________________________ -->
+
+		<section class="generic-module">
+
+			<div class="container">
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+					<div>
+						<h2>Switching users from desktop to mobile</h2>
+							<div class="horizontal-line-small"></div>
+					</div>
+
+					<div>
+						<p>From a technical point of view the biggest challenge was what method we would provide the user to switch to their mobile. We had a few options available:</p>
+						<ol>
+							<li>New screen to instruct user what to do (easiest to implement — though crappy UX!)</li>
+							<li>Copy and paste link (easy)</li>
+							<li>Email (easy/medium)</li>
+							<li>SMS (unsure)</li>
+							<li>QR code (too many unknowns)</li>
+						</ol>
+					</div>	
+
+					<div>
+						<p>SMS obviously was our preferred option after the user testing results, but technically we were not sure if this could be implemented in time. For the MVP we decided to give users the options of “email link to mobile” as the primary method and the “copy link” as the alternative method. We felt this was technically achievable and a good UX middle-ground option for the first iteration.</p>
+					</div>
+
+				</div> <!-- end row -->
+
+				<div class="row col-md-12 center">
+
+					<figure>
+						<img srcset="img/??/??@2x.png 2x" 
+							src="img/??/??@1x.png" class="img-responsive center" alt="image of my whiteboard session">
+						<figcaption class="padding-btm">
+							????
+						</figcaption>
+					</figure>
+
+            	</div> <!-- end row --> 
+
+
+
+        	<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+				<div>
+					<h2>Make America great again</h2>
+						<div class="horizontal-line-small"></div>
+				</div>
+
+				<div>
+					<p>Disagreement with this decision came when I discussed it later with our Head of Design (who is based in San Francisco). He strongly believed that SMS would be the expected option by our U.S. clients and could damage our fledgling reputation in the U.S. market if not included. My opinion was that this was just an MVP to learn from, we had a very tight deadline, and the decision to go this way had been made as a team. After this conversation I had a chat with my Product Manager about these new insights from the U.S. and he was of the opinion that we couldn't realistically deliver everything that everyone wanted right away. At this point I started feeling like I was stuck in the middle of two strongly held opinions. :(</p>
+
+					<p>On my next call with the Head of Design I expressed how I felt I was being told what to do instead of being offered advice and guidance. After a frank and open conversation about what our business needed to compete I came away with a better understanding of the pressures and expectations we were facing in the U.S market. Coming to an understanding and alignment of why we needed the SMS option first time meant we were able to go back to stakeholders with a unified design voice behind the why — and we were able to add an extra two weeks to the project to research and implement SMS.</p>
+				</div>	
 
 			</div> <!-- end row -->
 
-		</section> <!-- end Full casestudy coming soon module --> 						
+
+
+			<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+				<div>
+					<h2>Clear user understanding of what will happen</h2>
+						<div class="horizontal-line-small"></div>
+				</div>
+
+				<div>
+					<p>Making the cross-device flow crystal clear to users was of utmost importance to prevent user confusion. From the user testing I saw that people were often unsure of what was going to happen next when choosing the cross-device option. I worked on making the cross-device concept easier for users to understand in two parts.</p>
+
+					<h3>Selling the benefit</h3>
+					<p>I went through many rewrites and a pairing with our marketing writer (hi Niamh!) to come up with the piece of microcopy that explained the value and benefit to the user at a glance (without it sounding like some cliched marketing copy). Pairing this copy with a visual of the desktop and mobile connecting gave the user an indication of the device connection that would happen.</p>
+				</div>	
+
+			</div> <!-- end row -->
+
+
+
+			<div class="row col-md-12 center">
+
+					<figure>
+						<img srcset="img/??/??@2x.png 2x" 
+							src="img/??/??@1x.png" class="img-responsive center" alt="x-device card">
+						<figcaption class="padding-btm">
+							????
+						</figcaption>
+					</figure>
+
+            	</div> <!-- end row --> 
+
+
+
+            <div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+				<div>
+					<h3>How it worked</h3>
+					<p>I went through many rewrites and a pairing with our marketing writer (hi Niamh!) to come up with the piece of microcopy that explained the value and benefit to the user at a glance (without it sounding like some cliched marketing copy). Pairing this copy with a visual of the desktop and mobile connecting gave the user an indication of the device connection that would happen.</p>
+				</div>	
+
+			</div> <!-- end row -->	
+
+
+
+			<div class="row col-md-12 center">
+
+					<figure>
+						<img srcset="img/??/??@2x.png 2x" 
+							src="img/??/??@1x.png" class="img-responsive center" alt="how it works screen">
+						<figcaption class="padding-btm">
+							????
+						</figcaption>
+					</figure>
+
+            	</div> <!-- end row --> 
+
+
+
+           <div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+				<div>
+					<p>Some designers say that if you need to explain something to the user then you haven't done your job properly as a designer, but I’ve always felt that this is a very simplistic argument. If a user is being introduced to a concept that is new or innovative, then it needs to be clearly explained in a way that matches their mental model so they understand the benefits.</p>
+				</div>	
+
+			</div> <!-- end row -->	 
+
+
+
+			<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+				<div>
+					<h2>Device connection feedback</h2>
+						<div class="horizontal-line-small"></div>
+				</div>
+
+				<div>
+					<p>Based on my exploration of the stress-cases I wanted any distracted user that had to refocus their attention (especially after they had sent the link to their mobile) to be reminded of where they were in the flow. This allowed an easier transition back into the flow without the cognitive overhead remembering where they were up to.</p>
+				</div>	
+
+			</div> <!-- end row -->
+
+
+
+			<div class="row col-md-12 center">
+
+					<figure>
+						<img srcset="img/??/??@2x.png 2x" 
+							src="img/??/??@1x.png" class="img-responsive center" alt="images of flow">
+						<figcaption class="padding-btm">
+							????
+						</figcaption>
+					</figure>
+
+            	</div> <!-- end row --> 
+
+
+
+            <div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+				<div>
+					<p>In usability sessions users expressed that they felt safer and more trusting of the cross-device seeing this visual connection between the desktop and mobile.</p>
+				</div>	
+
+			</div> <!-- end row -->	
+
+
+
+			<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+				<div>
+					<h2>Feedforward information</h2>
+						<div class="horizontal-line-small"></div>
+				</div>
+
+				<div>
+					<p>From a technical point of view the syncing of devices could be interrupted for a variety of reasons. Providing tips at particular points, while the devices were synced, helped reduce the chances of a user action (such as a page refresh or closing the tab) accidentally interrupting the synch.</p>
+				</div>	
+
+			</div> <!-- end row -->
+
+
+
+			<div class="row col-md-12 center">
+
+					<figure>
+						<img srcset="img/??/??@2x.png 2x" 
+							src="img/??/??@1x.png" class="img-responsive center" alt="images of feedforward elements">
+						<figcaption class="padding-btm">
+							????
+						</figcaption>
+					</figure>
+
+            	</div> <!-- end row --> 	
+
+
+			</div> <!-- end container -->
+
+		</section> <!-- end The challenges -->  		
+
+
+
+	<!-- Section break module ___________________________________________________________________________________________________________________________ -->
+
+		<section class="section-break-module">
+
+				<div class="container">
+
+		    		<div class="row col-md-12 center center-text">
+					
+		        		<!-- Sub title -->
+		            	<div>
+		            		<p class="no-padding">Visual styling</p>
+		            	</div>
+
+
+		        		<!-- Title -->
+		            	<div>
+		            		<h1>User interface</h1>
+		              	</div>
+
+		            </div> <!-- end row -->	
+
+	            </div> <!-- end container -->
+
+            </section> <!-- end Section break module -->
+
+
+
+	<!-- User interface  ___________________________________________________________________________________________________________________________ -->
+
+		<section class="generic-module">
+
+			<div class="container">
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+					<div>
+						<h2>SDK simplification</h2>
+							<div class="horizontal-line-small"></div>
+					</div>
+
+					<div>
+						<p>Airbnb’s use of illustrations as part of their flow was something I also wanted to add to our flow as I felt they added a sense of visual understanding to help the user interpret what was happening.</p>
+						<p>One of the visual challenges working with an SDK is that clients want to be able to customise it to match their branding. This means that all visuals need to have a “white labelled” look and feel to them so as to fit into as wide a range of product brands as possible. I had to make sure that the illustrations that I used were using only done in monotone and that they could work on a variety of different background colours. </p>
+					</div>	
+
+				</div> <!-- end row -->
+
+				<div class="row col-md-12 center">
+
+					<figure>
+						<img srcset="img/??/??@2x.png 2x" 
+							src="img/??/??@1x.png" class="img-responsive center" alt="illustrations">
+						<figcaption class="padding-btm">
+							????
+						</figcaption>
+					</figure>
+
+            	</div> <!-- end row --> 
+
+
+
+        	<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-btm">
+
+				<div>
+					<h2>Cross-device card</h2>
+						<div class="horizontal-line-small"></div>
+				</div>
+
+				<div>
+					<p>From user testing I found that most people preferred the cross-device option and the upload ability to sit on the same screen. As we didn’t want to do a whole redesign of this screen (at this stage) I just had to find enough layout space to add the cross-device selection card and it’s content. From a design point of view I wasn’t enthused by this, but it was a tradeoff I had to make to release the MVP quickly knowing that an iteration would happen later.</p>
+				</div>	
+
+			</div> <!-- end row -->
+
+
+
+			<div class="row col-md-12 center">
+
+					<figure>
+						<img srcset="img/??/??@2x.png 2x" 
+							src="img/??/??@1x.png" class="img-responsive center" alt="cross device card">
+						<figcaption class="padding-btm">
+							????
+						</figcaption>
+					</figure>
+
+            	</div> <!-- end row --> 
+
+
+
+			</div> <!-- end container -->
+
+		</section> <!-- end User interface --> 
+
+
+
+		<div class="container grey-module full-width">
+
+        		<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center">
+
+					<div>
+						<h2 class="no-padding-top">Final UI</h2>
+							<div class="horizontal-line-small"></div>
+					</div>
+
+				</div> <!-- end row -->
+
+				<div class="row center no-padding">
+
+					<figure class="col-md-8 center">
+						<img srcset="img/verification/overview-screens@2x.png 2x" 
+							src="img/verification/overview-screens@1x.png" class="img-responsive center" alt="Screens-shots of overview screens on both desktop and mobile.">
+						<figcaption>
+							Document overview screens (both empty and completed cards shown on desktop).
+						</figcaption>
+					</figure>	
+
+					<figure class="col-md-8 center">
+						<img srcset="img/verification/selection-screens@2x.png 2x" 
+							src="img/verification/selection-screens@1x.png" class="img-responsive center" alt="Screens-shots of document selection screens on both desktop and mobile.">
+						<figcaption>
+							Document selection screens.
+						</figcaption>
+					</figure>
+
+					<figure class="col-md-8 center">
+						<img srcset="img/verification/uploading-screens@2x.png 2x" 
+							src="img/verification/uploading-screens@1x.png" class="img-responsive center" alt="Screens-shots of document upload screens on both desktop and mobile.">
+						<figcaption>
+							Document upload screens.
+						</figcaption>
+					</figure>	
+
+					<figure class="col-md-8 center">
+						<img srcset="img/verification/delete-doc-screens@2x.png 2x" 
+							src="img/verification/delete-doc-screens@1x.png" class="img-responsive center" alt="Screens-shots of document error screens on both desktop and mobile.">
+						<figcaption>
+							Document delete screens. </br>(Desktop: Navigating away from a partially completed upload screen - Mobile: Deleting an already uploaded document on the overview screen).
+						</figcaption>
+					</figure>								
+
+            	</div> <!-- end row --> 							
+
+			</div> <!-- end container -->
+
+		</section> <!-- end UI section --> 	
+
+
+
+	<!-- Outcome (section) module ___________________________________________________________________________________________________________________________ -->
+
+		<section class="section-break-module">
+
+			<div class="container">
+
+	    		<div class="row col-md-12 center center-text">
+	
+	        		<!-- Sub title -->
+	            	<div>
+	            		<p class="no-padding">Cross-device</p>
+	            	</div>
+
+
+	        		<!-- Title -->
+	            	<div>
+	            		<h1>Outcome</h1>
+	              	</div>
+
+	            </div> <!-- end row -->
+
+            </div> <!-- end container -->
+
+        </section> <!-- end Outcome (section) module -->  
+
+
+
+	<!-- Outcome (generic module) _______________________________________________________________________________________________________________ -->
+
+		<section class="generic-module">
+
+			<div class="container no-padding-btm">
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center padding-top">
+
+					<div>
+	            		<p>On the release of the cross-device feature it was great to see the excitement from the growth and sales team to show the Web SDK to clients again and to get new clients signed partly because of this excitement.</p>
+            		</div>
+
+            		<div class="outcome-metrics center-text">
+	            		<div>
+	            			<h1>~50%</h1>
+            			</div>
+
+            			<div>
+	            			<p>cross-device usage</p>
+	            		</div>
+            		</div>
+
+            		<div class="outcome-metrics center-text">
+	            		<div>
+	            			<h1>+18%</h1>
+            			</div>
+
+            			<div>
+	            			<p>completion rates using cross-device</p>
+	            		</div>
+            		</div> 
+
+            		<div class="outcome-metrics center-text">
+	            		<div>
+	            			<h1>+5</h1>
+            			</div>
+
+            			<div>
+	            			<p>clients signed</p>
+	            		</div>
+            		</div>            		           		            		
+
+				</div> <!-- end row --> 
+
+			</div> <!-- end container -->
+
+		</section> <!-- end outcome --> 
+
+
+
+	<!-- Quote module ___________________________________________________________________________________________________________________________ -->
+
+		<section class="quote-module">
+
+			<div class="container">
+
+				<div class="row">
+	            	<div class="horizontal-line-small center"></div>
+            	</div>
+
+				<div class="row col-xs-10 col-sm-10 col-md-7 col-lg-6 center">		
+						<div>
+				    		<blockquote>“The cross-device is being very very well received by potential and existing clients.”</blockquote>
+				    		<figcaption>Feedback from sales after release</figcaption>
+				    	</div> 
+		    	</div>
+
+		    	<div class="row">
+	            	<div class="horizontal-line-small center"></div>
+            	</div>
+
+			</div> <!-- end container -->
+
+		</section> <!-- end Quote module --> 
+
+
+
+<!-- Reflections (generic-grey module) _______________________________________________________________________________________________________________ -->
+
+		<section class="special-module">
+
+			<div class="container">
+
+				<div class="row col-xs-11 col-sm-10 col-md-8 col-lg-7 center no-padding-btm">
+
+					<div>
+						<h2 class="no-padding-top">Reflections</h2>
+						<div class="horizontal-line-small-pink"></div>
+					</div>
+
+					<div>
+						<p>Working on an MVP requires trade offs to release quickly and start learning, though this has to be balanced with actually providing value and respecting the user. After discovering that users preferred the SMS option I should have fought harder for this to be included in the first iteration, instead of bowing to the pressure of a quick release.</p>
+
+						<p>Stepping outside of our “tech bubble” and seeing how our designs are being interpreted by others is crucial to designing an experience that can be understood easily. It took a long time to find a way to explain the cross-device concept in language that was concise and understandable for a wider audience. This was one of the most important aspects of this project to get right — for this feature to be considered a success all users had to understand the benefits instantly.</p>
+
+						<p>The willingness to have open, honest, and frank discussions with your teammates, without devolving into finger pointing or blaming, is paramount to be able to achieve better results and build better working relationships. Having the safety to be upfront with my head of design about how I was feeling when caught between differing views and being able to resolve it quickly lead to a much better final outcome — not just for the team and myself, but for the users as well.</p>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section> <!-- end Reflections --> 				          						
 
 
 
